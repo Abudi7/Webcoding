@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Fontawsome Icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Roboto google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <!--Style sheet Css3-->
+    <link rel="stylesheet" href="/css/style.css">
+    <!--Favicon link-->
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <title>webseit</title>
+  </head>
+  <body>  
+  <div class="header">
+    <h1>My website</h1>
+    <p>this is my new web i bulid only in html css  </p>
+  </div>
+  <div class="topnav">
+    <a href="#">Home</a>
+    <a href="#">About me</a>
+    <a href="#">Blog</a>
+    <a href="#">Portfoilo</a>
+    <a href="#" style="float: right;">Contact</a>
+  </div>
+  <div class="row">
+    <div class="leftcolum">
+      <div class="poster">
+      <h2> Online Css3 Toutrial</h2>
+      <h5> This Article About the stylesheet for the date 27.12.2021</h5>
+      <img src="/img/css3.jpg" alt="css picture" width="360">
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="poster">
+      <h2> sunset in Austria</h2>
+      <h5>The Article about sunset in Austria 13.01.2022</h5>
+       <img src="/img/sunset.jpg" alt="sunset photo" width="360">
+       <p>Some text..</p>
+       <p id="demo"></p>
+       <p id="result"></p>
+       <button type="button" onclick="document.write('Hallo')"> Click Here</button> 
+     </div> 
+    </div> 
+    <div class="rightcolum">
+        <div class="cart">
+          <h2>About me</h2>
+          <img src="/img/abud.jpg" alt="Abud" width="100">
+          <p>I am Abdulrhman Alshalal 29 jears old , i am web developer . I work in Austria.officia deserunt mollit anim id est .officia deserunt mollit anim id est .officia deserunt mollit anim id est .officia deserunt mollit anim id est officia deserunt mollit anim id est .officia  </p>
+        </div>
+        <div class="cart">
+          <h3>Populer post</h3>
+          <img src="/img/bg.png" alt="sunset photo" width="200">
+          <img src="/img/live.PNG" alt="sunset photo" width="200">
+          <img src="/img/IMG_3068.PNG" alt="sunset photo" width="200">
+        </div>
+        <div class="cart">
+          <h2>Follow Me</h2>
+          <span><a href=""><i class="fab fa-instagram"></i></a></span>
+          <span><a href="#"><i class="fab fa-facebook-square"></i></a></span>
+          <span><a href="https://www.youtube.com/watch?v=TCgwVnNllm0&t=285s" target="_blank"><i class="fab fa-youtube"></i></a></span>
+          <span><a href="#"><i class="fab fa-telegram-plane"></i></a></span>
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer">
+      <h2>Footer</h2>
+    </div>
+    <div class="js"> 
+      <h2>javascript exampel </h2>
+      <button onclick="document.getElementById('img').src='/img/ONbulb.jpg'">turn on light</button>
+      <img  src="/img/OFFbulb.jpg" width="100" alt="off image" id="img">
+      <button onclick="document.getElementById('img').src='/img/OFFbulb.jpg'">turn off light </button>
+
+      <p style="font-size: 20px; " id="hide">لغة الجافا سكربت تستطيع اخفاء نص من لغة html </p>
+      <button onclick="document.getElementById('hide').style.color='red'">change color </button>
+      <button onclick="document.getElementById('hide').style.color='black'">back color </button>
+  </div> 
+    <script>
+      //alert("مرحبا بكم يااصدقائي");
+      document.getElementById("result").innerHTML= 5*4;
+      document.getElementById("demo").innerHTML= "Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.";
+    </script>
+  </body>
+</html>

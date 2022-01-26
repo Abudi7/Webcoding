@@ -1,0 +1,90 @@
+
+
+body{
+   
+   font-family: 'Roboto', sans-serif;
+  
+}
+/* my header style */
+.header{
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+    background-color: #aaa;
+}
+.header h1{
+    font-size: 50px;
+}
+/* my tobnav style */
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+   
+}
+.topnav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 15px 15px;
+    float: left;
+    
+}
+.topnav a:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid red;
+}
+/* leftcolum style */
+.leftcolum{
+    float: left;
+    width: 75%;
+    
+}
+.poster{
+    margin-top: 20px;
+    padding: 20px;
+    background-color:white;
+}
+.js{
+    border: 1px solid #333;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #aaa;
+    width: 100%;
+}
+/* righttcolum style */
+.rightcolum{
+    float: left;
+    width: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+.rightcolum p{
+    color: black;
+}
+.cart{
+    background-color: #aaa;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #333;
+    
+}
+.cart span a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+    margin: 0px 10px;
+}
+.cart span a:hover{
+    color: red;
+}
+/* footer style */
+.footer{
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+    
+}
